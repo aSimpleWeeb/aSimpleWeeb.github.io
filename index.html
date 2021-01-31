@@ -2,83 +2,133 @@
 <html lang="nl">
 
 <head>
-<title>Hoofdstuk 3 opdracht 2</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<meta name="author" content="Renée Kluiters">
-<meta name="keywords" content="Tabellen, lijsten">
-<meta charset="utf–8">
+
+  <title>Thuispagina</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="main.css">
+
 </head>
-
 <body>
-<h1>Tabellen,hyperlinks en lijsten</h1>
-<p>Dit is de tweede opdracht van Hoofdstuk 3. In deze opdracht maak je
-   een tabel met websites en voeg je <u>lijsten</u> toe.</p>
 
-<h2>Wat moet je doen</h2>
-<p>Maak deze opdracht zo nauwkeurig na in HTML. Doe verder het volgende:<br>
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand" href="index.html">Logo</a>
+          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-<ul>
-<li>geef "Hoofdstuk 3 opdracht 2" op als <i>title</i> van het HTML–bestand,</li>
-<li>vermeld in de head ook wie de auteur is van je HTML–bestand,</li>
-<li>geef ten slotte als <i>keywords</i> de woorden "Tabellen" en "lijsten" op.
-</ul>
-</p>
+          <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Thuispagina</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="maken_van_chocoladekopie.html">Het maken van chocolade</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="soorten_chocolade2.html">Soorten chocolade</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="inhoud_chocolade.html">Inhoud chocolade</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-<h2>Website top–3</h2>
+      <header class="page-header header container-fluid">
+      <div class="overlay"></div>
+      </header>
 
-<table border="2">
-<tr>
-<td colspan="2">Top 3 websites</td>
-</tr>
+    <div class="row">
+      <div class="column">
+        <div class="description">
+          <h1>Welkom!</h1>
+          <p>Dit is een webpagina over chocolade!<br>
+            Gemaakt met informatie uit verschillende bronnen om mensen te informeren hoe het nou in elkaar zit. Vragen waarmee wij zaten hebben we in deze pagina gezet voor iedereen die misschien geïnteresseerd zou zijn. Als er nog vragen zijn kunt u bij de onderstaande gegevens terecht.
+          </p>
+        </div>
+      </div>
+    </div>
 
-<tr>
-<td>1.</td>
-<td> <a href="http://vumoo.to/tv-series/page/1">vumoo.to</a>
-</tr>
+    <div class="container features">
+      <div class="row">
+        <h2>Leuke feitjes</h2>
+        <div class="column">
+          <p>
+            <ul>
+              <li>
+                Van chocolade kan je je verliefd voelen, er zit namelijk een stofje in (fenylethlamine) waardoor je hersenen endorfine aanmaken. Daardoor kan je je blij, gelukkig of zelfs verliefd voelen.
+              </li>
+              <li>
+                Witte chocolade is geen echte chocolade. Het wordt namelijk niet gemaakt met cacao bonen maar met cacao boter.
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li>
+                Altijd bang dat chocolade voor puistjes zorgen? Niet nodig, want puistjes krijgen door chocolade is een groot fabeltje. Puistjes ontstaan niet door voeding, maar door hormonen. Gezond eten is belangrijk, maar zo nu en dan een reep chocolade eten kan geen kwaad.
+              </li>
+              <li>
+                Wees maar niet bang dat chocolade snel over de datum is, want dat is niet zo. Normale chocolade, zonder vulling, kan je bijna een half jaar bewaren. Maar in chocolade waar zachte vulling in zit, kan je ongeveer 3 weken bewaren.
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
 
-<tr>
-<td>2.</td>
-<td> <a href="https://www12.9anime.ru">9anime.ru</a>
-</tr>
+  <h2 class="feature-title">Maak contact!</h2>
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Name">
+  </div>
 
-<tr>
-<td>3.</td>
-<td> <a href="https://www.webtoons.com/en">webtoon</a>
-</tr>
-</table>
+  <div class="form-group">
+    <input type="email" class="form-control" placeholder="Email Address" name="email">
+    <a href="mailto:reneekluiters1@gmail.com"></a>
+  </div>
 
-<h2>Lijsten en vreemde tekens</h2>
+  <div class="form-group">
+    <textarea class="form-control" rows="2"></textarea>
+  </div>
 
-<h3>Ongeoordende lijst</h3>
+  <input type="submit" class="btn btn-secondary btn-block" value="Send">
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <h4 class="text-uppercase font-weight-bold">Extra informatie</h4>
+            <p>
+              Deze website is gemaakt voor een schoolopdracht, chocolade leek ons een onderwerp wat mensen graag zouden lezen en daarom is deze website gemaakt.
+            </p>
+            <p>
+              Voor eventuele vragen of opmerkingen kunt u contact opnemen met ons, via de gegeven hiernaast.
+            </p>
+        </div>
+      </div>
 
-<ul>
-<li>Item 1</li>
-<li>Item 2</li>
-</ul>
+     <div class="col-lg-4 col-md-4 col-sm-12">
+      <h4 class="text-uppercase font-weight-bold">Contact</h4>
+      <p>
+        5551 CV Petrusdal 20, Dommelen, Noord-Brabant
+        <br>
+        reneekluiter1@gmail.com
+        <br>
+        + 06 200 54 982
+        <br>
+        + 06 135 33 636
+      </p>
+    </div>
 
-<h3>Geordende lijst</h3>
+    </div>
+    <div class="footer-copyright text-center">© 2020 Copyright: Renée en Kiki</div>
 
-<ol>
-<li>Item 1</li>
-<li>Item 2</li>
-</ol>
+  </footer>
 
-<h3>Definitielijst</h3>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 
-<dl>
-<dt>&nsbp; </dt>
-<dd>Een spatie</dd>
-<dt>&amp; </dt>
-<dd>&–teken</dd>
-<dt>&lt; </dt>
-<dd><–teken</dd>
-<dt>&gt; </dt>
-<dd>>–teken</dd>
-</dl>
-
-<p>Deze pagina is gemaakt door <b>Instruct</b>. Voor vragen ben ik
-   beschikbaar via het volgende
-<a href="mailto: reneekluiters1@gmail.com">emailadres</a>.</p>
-
-</body>
+  </body>
 </html>
