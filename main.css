@@ -1,0 +1,149 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #F1F7ED;
+  font-family: Footlight MT Light, Bell MT;
+  font-size: 25px;
+}
+
+/*--- navigation bar ---*/
+.navbar {
+  background:#A52422;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-brand:hover {color:FF9B71;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+#nav li { padding: 10px; border-radius: 5px 5px 0px 0px; }
+
+
+.header {
+  background-image: url(https://blog.liebherr.com/huishoud/nl/wp-content/uploads/sites/21/2017/04/chocolate-in-the-fridge_4_Panther-721x400.jpg); rgba(0,0,0,0,6)
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: relative;
+  display: block;
+  cursor: auto;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  color: #A52422;
+  font-family: Footlight MT Light;
+}
+
+.description p {
+  color: #fff;
+  line-height: 1.5;
+  font-family: Footlight MT Light;
+}
+
+.features {
+  margin: 5px auto;
+  padding: 10px;
+  position: relative;
+}
+
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn {
+  background-color: #FF9B71;
+  border: 1px solid #FF9B71;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.features .btn:hover {
+  background-color: #FF9B71;
+  border: 1px solid #FF9B71;
+}
+
+.page-footer {
+  background-color: #A52422;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #FF9B71;
+  padding: 40px 0;
+}
+
+.column {
+  float: left;
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h2 {margin: 20px}
+h4 {color: #fff;}
+h3 {margin: 20px;}
+p {margin-left: 20px;}
+h1 {margin: 20px}
+h5 {margin: 20px;}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+.link {color: #ff6557;}
+.link-hover {color: #bf1708;}
